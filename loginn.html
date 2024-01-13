@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+</head>
+<link rel ="stylesheet" href="stylefinal.css">
+<body background="https://www.awn.com/sites/default/files/styles/original/public/image/featured/1040779-cn-casts-new-powerpuff-girls-voice-middle-east-uk.jpg?itok=xYpxNEWi" style="background-repeat: no-repeat; background-size: cover;">
+
+<div id = "header">
+<center><h1>PPG</h1></center>
+</div>
+
+<div id = "logo">
+<img src="PPGG.PNG" width="80px" height="80px">
+</div>
+
+
+	<br><br><br><br><br>
+<table width="20%" border="10" align="right"><tr><td><div id = "nav">
+<center><h2>LOG-IN FORM</h2></center>
+
+ <center><input type="text" id="UserName-field" placeholder="Username"></center>
+  <br>
+  <center><input type="password" id="Password-field" placeholder="Password"></center>
+  <br>
+  <center><input type="button" onclick="submitForm()" value="Login"></center>
+</div></tr></td></table>
+
+<div id = "footer">
+
+<script>
+function submitForm() {
+  var enterName = document.getElementById("UserName-field").value;
+  var enterPass = document.getElementById("Password-field").value;
+  
+  if (enterName === "larabrito" && enterPass === "maricor") {
+    alert("LOGIN SUCCESSFULLY!");
+   
+    window.location.href = "Register.html";
+  } else {
+    alert("Wrong! Please check your input details and try again");
+  }
+}
+</script>
+
+<center><h1>COPYRIGHT 2023 - PPG MAACM</h1></center>
+<p style = "text-align:center;"> COPYRIGHT 2023 - PPG MAACM </p>
+</div>
+</body></html>

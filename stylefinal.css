@@ -1,0 +1,87 @@
+body{
+border: 2px solid pink;
+background-image: url('https://c4.wallpaperflare.com/wallpaper/646/560/931/powerpuff-girls-cartoon-cartoon-network-hd-wallpaper-preview.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#header{
+background: pink;
+border: 2px solid black;
+height: 60px;
+margin: 10px;
+opacity: 1;
+font-family: Century Gothic;
+}
+#logo{
+margin: 10px;
+margin-top: -80px;
+magin-right: -80px;
+margin-bottom: 0;
+margin-left: 10px;
+opacity: 300;
+}
+#nav{
+background: pink;
+border: 2px solid black;
+height: 200px;
+width: 200px;
+margin: 10px;
+float:center;
+color: black;
+opacity: 0.9;
+font-family: Century Gothic;
+}
+#rightcontent{
+background: pink;
+border: 2px solid black;
+height: 500px;
+width: 400px;
+margin: 10px;
+float:left;
+color: black;
+opacity: 0.9;
+font-family: Century Gothic;
+}
+
+#img{
+width: 50px;
+margin: 1px; auto;
+}
+#leftcontent{
+background: pink;
+border: 2px solid black;
+height: 500px;
+width: 400px;
+margin: 10px;
+float:right;
+color: black;
+opacity: 0.9;
+font-family: Century Gothic;
+}
+#center_content{
+background: pink;
+text-align: left;
+height: 500px;
+border: 2px solid black;
+width: 400px;
+border: 2px solid black;
+margin: 0 auto;
+margin-top: 10px;
+magin-right: auto;
+margin-bottom: 0;
+margin-left: auto;
+color: black;
+opacity: 0.9;
+font-family: Century Gothic;
+}
+
+#footer{
+background: #FFFFFF;
+border: 2px solid black;
+height: 60px;
+margin: 10px;
+clear: both;
+font-family: Century Gothic;
+}
